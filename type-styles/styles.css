@@ -1,0 +1,102 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 36px;
+    font-style:normal;
+    background-color:honeydew;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.demo{
+    color:olivedrab;
+}
+
+h1{
+    font-size:100px;
+}
+
+i{
+    color: olivedrab;
+    padding-right: 10px;
+}
+
+.light{
+    font-weight:300;
+}
+
+.regular{
+    font-weight:400;
+}
+
+.medium{
+    font-weight:500;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+h3{
+    /* color: grey; */
+    font-size: 16px;
+}
+
+h2{
+    font-size: 24px;
+    padding-bottom:10px;
+}
+
+#border{
+    border-style:solid;
+    border-radius: 5px;
+    border-color: black;
+    background-color: greenyellow;
+    padding: 10px;
+    margin-bottom: 5%;
+    width:fit-content;
+}
+
+.font-size{
+    font-size: 36px;
+    color:olivedrab;
+}
+
+.normal{
+    font-style:normal;
+}
+
+.italic{
+    font-style:italic;
+}
+
+.expand{
+    letter-spacing:0.5em;
+}
+
+.condense{
+    letter-spacing:-0.075em;
+}
+
+.underline{
+    text-decoration:underline;
+}
+
+.linethrough{
+    text-decoration: line-through;
+}
+
+.overline{
+    text-decoration:overline;
+}
+
+.uppercase{
+    text-transform:uppercase;
+}
+
+.lowercase{
+    text-transform:lowercase;
+}
+
+.capitalize{
+    text-transform:capitalize;
+}

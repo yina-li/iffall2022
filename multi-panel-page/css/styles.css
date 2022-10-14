@@ -1,0 +1,136 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+    line-height: 1.4;
+}
+
+header {
+    background-image: url('../images/botticelli.jpg');
+    background-size: cover;
+    height: 480px;
+}
+
+h1 {
+    color: beige;
+    font-size: 80px;
+    margin: 129px 0 0 0;
+}
+
+h2 {
+    color: beige;
+    font-size: 30px;
+    margin: 0;
+    line-height: 30px;
+}
+
+h3 {
+    color:brown;
+    text-align:center;
+    font-size: 40px;
+    margin: 0;
+    margin-top: 17px;
+    margin-bottom: 31px;
+}
+
+h4 {
+    color: darkolivegreen;
+    font-size: 20px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color:brown;
+    font-size: 18px;
+    margin:0;
+    margin-bottom:16px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    margin: 0 48px 20px 0;
+}
+
+.content {
+    margin: auto;
+    width: 960px;
+    padding: 22px 0;
+}
+
+#intro {
+    text-align: center;
+}
+
+#sec1 {
+    background-color: beige;
+    height: 718px;
+}
+
+#sec1 img {
+    float: right;
+    object-fit: cover;
+    width: 400px;
+    height: 302px;
+    margin: 0 0 30px 40px;
+}
+
+#sec2 {
+    background-color:thistle;
+}
+
+
+.gridimage {
+    object-fit: cover;
+    width: 200px;
+    height: 150px;
+    margin: 0;
+    margin-right:12px;
+}
+
+.gridtext {
+    text-align: left;
+    padding: 5px 0;
+    width: 220px;
+}
+
+p.desc {
+    color: darkslategray;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 8px;
+}
+
+#sec3 {
+    padding: 2px 0 55px 0;
+    background-color: beige;
+}
+
+#sec3 p {
+    color: brown;
+    font-size: 26px;
+    line-height:36px;
+    text-align: center;
+    width: 720px;
+    margin: auto;
+}
+
+footer {
+    background-color: white;
+    padding-top: 1px;
+}
+
+footer p {
+    font-size: 18px;
+    margin: 20px 0 30px 0;
+    color: brown;
+}

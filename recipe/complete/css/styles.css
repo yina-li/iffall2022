@@ -331,7 +331,6 @@ footer p{
 
     #header-image img{
         width: 100vw;
-        height: 50vh;
         object-fit: cover;
         box-sizing: border-box;
     }

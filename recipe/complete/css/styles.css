@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    color: #FF7134;
+    font-family: bookmania, serif;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #f8f1e9;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-variant-ligatures: discretionary-ligatures;
+    font-size: 48pt;
+}
+
+
+#header-image img{
+    width: 100vw;
+    object-fit: contain;
+    box-sizing: border-box;
+}
+
+header {
+    width: 95%;
+    margin: auto;
+    height: fit-content;
+}
+
+
+nav ul{
+    list-style: none;
+    width: fit-content;
+    display: flex;
+
+}
+
+nav li{
+    padding: 8px 100px;
+    margin: 20px 20px 5px 0px;
+    border-radius: 50px;
+    border: 2px solid #FF7134;
+    background-color: #f8f1e9;
+}
+
+nav li a{
+    font-size: 18pt;
+    line-height: 25pt;
+    text-decoration: none;
+    color: #FF7134;
+}
+
+nav li:hover{
+    color: #063970;
+    border: 2px solid #063970;
+    transition: 0.5s;
+}
+
+nav a:hover{
+    color: #063970;
+    transition: 0.2s;
+}
+
+
+section {
+    width: 95%;
+    height: 100%;
+    margin: auto;
+    padding: 0;
+    display: flex;
+}
+
+#ingredients { 
+    padding: 20px 0 0 0;
+    width: 30%;
+    left: 0;
+    height: 100vh;
+    overflow: scroll;
+    position: sticky;
+    top: 0px;
+}
+
+#ingredients h2{
+    padding-bottom: 20px;
+}
+
+
+.ingredient{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 0 20px 0;
+    font-weight: 400;
+    color: #063970;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    background-color: transparent;
+    margin: 0;
+    color: currentColor;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #FF7134;
+    border-radius: 5px;
+    display: grid;
+    place-content: center;
+    transition: 0.2s;
+  }
+
+
+  input[type="checkbox"]:checked {
+    border: 0 solid transparent;
+    border-radius: 0;
+    box-shadow: inset 2em 2em #FF7134;
+    transform-origin: bottom left;
+    clip-path: polygon(22% 42%, 4% 64%, 47% 100%, 95% 23%, 73% 9%, 43% 59%);
+    transition: 0.5s;
+  }
+
+
+#ingredients img {
+    margin-right: 10px;
+    width: 25%;
+    height: 25%;
+    float: right;
+    object-fit: contain;
+}
+
+#ingredients p{
+    padding: 0 0 0 20px;
+    width: 60%;
+    font-size: 16pt;
+    line-height: 18pt;
+}
+
+#ingredients label>img { 
+    visibility: hidden;
+    height: 0;
+    transition: 0.4s;
+}
+
+#ingredients label:hover>img{
+    visibility: visible;
+    height: 100px;
+    transition: 0.4s;
+    transition-delay: 0.2s;
+}
+
+
+#rightcol {
+    padding: 20px 10px 30px 70px;
+    width: 70%;
+    float: right;
+    border-left: 2px solid #FF7134;
+}
+
+#intro p {
+    font-size: 16pt;
+    font-weight: 400;
+    color: #063970;
+}
+
+#instructions ol{
+    margin-left: 40px;
+    width: 70%;
+}
+
+#instructions li{
+    font-size: 24pt;
+    line-height: 38pt;
+    padding-bottom: 40px;
+    font-weight: 300;
+    color: #063970;
+}
+
+footer{
+    background-color: #FF7134;
+    color: #f8f1e9;
+    height: 100px;
+    vertical-align: middle;
+}
+
+footer p{
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+@media (max-width: 500px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+
+    #header-image img{
+        width: 100vw;
+        object-fit: cover;
+        box-sizing: border-box;
+    }
+
+    header {
+        box-sizing: border-box;
+    }
+
+    nav {
+        position: sticky;
+        height: fit-content;
+        width: 100%;
+        margin: 20px auto;
+        top: 30px;
+    }
+    nav ul{
+        list-style: none;
+        display: block; 
+    }
+
+    nav li{
+        height: fit-content;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    
+    nav li a{
+        font-size: 14pt;
+        line-height: 16pt;
+    }
+
+    h1{
+        font-size: 32pt;
+    }
+
+    section {
+        width: 95%;
+        height: 100%;
+        margin: auto;
+        padding: 0;
+        display: block;
+    }
+
+    #ingredients img {
+        margin-right: 0;
+        width: 25%;
+        height: 5%;
+        float: right;
+        object-fit: contain;
+    }
+
+    #ingredients label>img { 
+        visibility: visible;
+        height: 100px;
+    }
+
+    #ingredients { 
+        padding: 20px 0 0 0;
+        width: 100%;
+        left: 0;
+        height: fit-content;
+        position: static;
+        top: 0px;
+    }
+    
+    #ingredients h2{
+        padding-bottom: 10px;
+    }
+    
+    
+    .ingredient{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin: 0 0 5px 0;
+        font-weight: 400;
+        color: #063970;
+    }
+
+    #rightcol {
+        padding: 20px 10px 30px 70px;
+        width: 95%;
+        border:none;
+    }
+
+    #instructions ol{
+        margin-left: 40px;
+        margin-right: 20px;
+        width: 95%;
+    }
+
+    footer {
+        position: absolute;
+        left:0px;
+        bottom:0px;
+        height: 50px;
+        width: 100%;
+    }
+
+    footer p{
+        padding-top: 10px;
+        font-size: 14px;
+    }
+
+}

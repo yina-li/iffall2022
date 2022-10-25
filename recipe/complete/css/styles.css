@@ -205,12 +205,15 @@ footer p{
 
     #header-image img{
         width: 100vw;
+        height: 50vh;
         object-fit: cover;
         box-sizing: border-box;
     }
 
     header {
         box-sizing: border-box;
+        width: 95%;
+        margin: auto;
     }
 
     nav {
@@ -238,7 +241,8 @@ footer p{
     }
 
     h1{
-        font-size: 32pt;
+        font-size: 28pt;
+        line-height: 30pt;
     }
 
     section {
@@ -292,13 +296,136 @@ footer p{
     }
 
     #instructions ol{
-        margin-left: 40px;
-        margin-right: 20px;
-        width: 95%;
+        width: 85%;
+        margin: auto;
+    }
+
+    #instructions li{
+        font-size: 18pt;
+        line-height: 20pt;
     }
 
     footer {
-        position: absolute;
+        position: fixed;
+        left:0px;
+        bottom:0px;
+        height: 50px;
+        width: 100%;
+    }
+
+    footer p{
+        padding-top: 10px;
+        font-size: 14px;
+    }
+
+}
+
+@media (min-width: 501px) and (max-width: 1000px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+
+    #header-image img{
+        width: 100vw;
+        height: 50vh;
+        object-fit: cover;
+        box-sizing: border-box;
+    }
+
+    header {
+        box-sizing: border-box;
+        width: 90%;
+        margin: auto;
+    }
+nav{
+    width: 90%;
+    margin: 20px 30px 20px 0;
+}
+
+    nav li{
+        height: fit-content;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    
+    nav li a{
+        font-size: 14pt;
+        line-height: 16pt;
+    }
+
+    h1{
+        font-size: 36pt;
+        line-height: 40pt;
+    }
+
+    section {
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        padding: 0;
+        display: block;
+    }
+
+    #ingredients img {
+        margin-right: 0;
+        width: 25%;
+        height: 5%;
+        float: right;
+        object-fit: contain;
+    }
+
+    #ingredients label>img { 
+        visibility: visible;
+        height: 100px;
+    }
+
+    #ingredients { 
+        padding: 20px 0 0 0;
+        width: 100%;
+        left: 0;
+        height: fit-content;
+        position: static;
+        top: 0px;
+    }
+    
+    #ingredients h2{
+        padding-bottom: 10px;
+    }
+    
+    
+    .ingredient{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        margin: 0 0 5px 0;
+        font-weight: 400;
+        color: #063970;
+    }
+
+    #rightcol {
+        padding: 20px 10px 30px 70px;
+        width: 100%;
+        margin: auto;
+        border:none;
+    }
+
+    #instructions ol{
+        width: 90%;
+        margin: auto;
+    }
+
+    #instructions li{
+        font-size: 24pt;
+        line-height: 28pt;
+    }
+
+    footer {
+        position: fixed;
         left:0px;
         bottom:0px;
         height: 50px;

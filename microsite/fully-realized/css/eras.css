@@ -45,13 +45,21 @@ nav a{
 .body {
     margin-top: 200px;
     position: relative;
+    border-left: 1px solid #FF0057;
+}
+
+h2 {
+    font-family: 'forma-djr-cyrillic-display', Helvetica, sans-serif;
+    letter-spacing: .1rem;
+    margin: 2% 25%;
+    font-size: 48px;
 }
 
 p{
     font-family: 'forma-djr-cyrillic-display', Helvetica, sans-serif;
     letter-spacing: .1rem;
-    margin: 5% 10%;
-    font-size: 48px;
+    margin: 2% 25%;
+    font-size: 18px;
 }
 
 a{
@@ -66,4 +74,35 @@ a:hover{
 img{
     position: absolute;
     z-index: -10; 
+}
+
+#nicole {
+    top: 5%;
+    left: 0%;
+    height: 15vw;
+    width: 15vw;
+    object-fit: cover;
+    border-radius: 500px;
+    opacity: 40%;
+}
+
+#grace {
+    top: 17%;
+    left: 70%;
+    height: 10vw;
+    width: 10vw;
+    object-fit: cover;
+    border-radius: 500px;
+    opacity: 40%;
+}
+
+#meg {
+    top: 52%;
+    filter: grayscale(100%);
+    left: 50%;
+    height: 25vw;
+    width: 25vw;
+    object-fit: cover;
+    border-radius: 500px;
+    opacity: 40%;
 }

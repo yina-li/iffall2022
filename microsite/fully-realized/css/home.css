@@ -67,3 +67,34 @@ img{
     position: absolute;
     z-index: -10; 
 }
+
+#nicole {
+    top: 5%;
+    left: 0%;
+    height: 15vw;
+    width: 15vw;
+    object-fit: cover;
+    border-radius: 500px;
+    opacity: 40%;
+}
+
+#grace {
+    top: 17%;
+    left: 70%;
+    height: 10vw;
+    width: 10vw;
+    object-fit: cover;
+    border-radius: 500px;
+    opacity: 40%;
+}
+
+#meg {
+    top: 52%;
+    filter: grayscale(100%);
+    left: 50%;
+    height: 25vw;
+    width: 25vw;
+    object-fit: cover;
+    border-radius: 500px;
+    opacity: 40%;
+}

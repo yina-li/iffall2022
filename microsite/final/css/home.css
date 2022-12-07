@@ -6,14 +6,20 @@
 
 html{
     background-color: #FFDCE8;
-    margin: 2% 5%;
 }
 
+
 ul{
+    padding: 2% 5%;
+    position: sticky;
+    top: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    border-bottom: 1px solid #FF0057;
+    background-image: linear-gradient(#FFB8CF, #ffdce8), url(https://grainy-gradients.vercel.app/noise.svg);
+    z-index: 5;
 }
 
 h1 {
@@ -23,6 +29,11 @@ h1 {
     padding: 5px 20px;
     border-radius: 100px;
     border: 1px solid #FF0057;
+    background-color: #FFDCE8;
+}
+
+h1 a{
+    text-decoration: none;
 }
 
 nav{
@@ -33,7 +44,7 @@ nav{
 nav a{
     font-family: 'Space Mono', monospace;
     text-transform: uppercase;
-    padding: 5px 20px;
+    padding: 50px 20px;
     color: #FF0057;
 }
 
@@ -43,15 +54,38 @@ nav a{
 }
 
 .body {
-    margin-top: 200px;
+    margin: 2% 5%;
     position: relative;
+}
+
+h4 {
+    font-size: 14pt;
+    margin: 200px 5% 0 5%;
+    font-family: 'Space Mono', monospace;
+    color: #FF0057;
 }
 
 p{
     font-family: 'forma-djr-cyrillic-display', Helvetica, sans-serif;
     letter-spacing: .1rem;
-    margin: 5% 10%;
+    margin: 5% 5%;
     font-size: 48px;
+}
+
+p:first-of-type{
+    margin: 0 5% 5% 5%;
+}
+
+button {
+    font-family: 'Space Mono', monospace;
+    font-weight: bolder;
+    margin: 50px 5%;
+    padding: 5px 20px;
+    font-size: 32px;
+    border-radius: 100px;
+    border: 1px solid #FF0057;
+    background-color: #FF0057;
+    color:#FFDCE8;
 }
 
 a{
@@ -69,7 +103,7 @@ img{
 }
 
 #nicole {
-    top: 5%;
+    top: 17%;
     left: 0%;
     height: 15vw;
     width: 15vw;
@@ -79,7 +113,7 @@ img{
 }
 
 #grace {
-    top: 17%;
+    top: -5%;
     left: 70%;
     height: 10vw;
     width: 10vw;
@@ -97,4 +131,18 @@ img{
     object-fit: cover;
     border-radius: 500px;
     opacity: 40%;
+}
+
+footer {
+    margin-bottom: 0;
+    padding: 50px 0 50px 10px;
+    background-color: #FF0057;
+    color: #FFDCE8;
+    font-family: 'forma-djr-cyrillic-display', Helvetica, sans-serif;
+    letter-spacing: .1rem;;
+}
+
+footer p:first-of-type{
+    margin-bottom: 0;
+    font-size: 15pt;
 }

@@ -6,14 +6,20 @@
 
 html{
     background-color: #FFDCE8;
-    margin: 2% 5%;
 }
 
+
 ul{
+    padding: 2% 5%;
+    position: sticky;
+    top: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    border-bottom: 1px solid #FF0057;
+    background-image: linear-gradient(#FFB8CF, #ffdce8), url(https://grainy-gradients.vercel.app/noise.svg);
+    z-index: 5;
 }
 
 h1 {
@@ -23,6 +29,7 @@ h1 {
     padding: 5px 20px;
     border-radius: 100px;
     border: 1px solid #FF0057;
+    background-color: #FFDCE8;
 }
 
 nav{
@@ -33,7 +40,7 @@ nav{
 nav a{
     font-family: 'Space Mono', monospace;
     text-transform: uppercase;
-    padding: 5px 20px;
+    padding: 50px 20px;
     color: #FF0057;
 }
 
@@ -43,8 +50,15 @@ nav a{
 }
 
 .body {
-    margin-top: 200px;
+    margin: 2% 5%;
     position: relative;
+}
+
+h4 {
+    font-size: 14pt;
+    margin: 200px 10% 0 10%;
+    font-family: 'Space Mono', monospace;
+    color: #FF0057;
 }
 
 p{
@@ -52,6 +66,10 @@ p{
     letter-spacing: .1rem;
     margin: 5% 10%;
     font-size: 48px;
+}
+
+p:first-of-type{
+    margin: 0 10% 300px 10%;
 }
 
 a{
@@ -97,4 +115,17 @@ img{
     object-fit: cover;
     border-radius: 500px;
     opacity: 40%;
+}
+
+footer {
+    margin: 0;
+    padding: 20px 0;
+    color: #FF0057;
+    font-family: 'forma-djr-cyrillic-display', Helvetica, sans-serif;
+    letter-spacing: .1rem;;
+}
+
+footer p{
+    margin: 0;
+    font-size: 15pt;
 }
